@@ -1,0 +1,7 @@
+com\app\dto\ContactRequest.class
+com\app\service\ContactService.class
+com\app\model\Contact.class
+com\app\dto\ContactResponse.class
+com\app\dto\controller\ContactController.class
+com\app\repository\ContactRepository.class
+com\app\MainApp.class

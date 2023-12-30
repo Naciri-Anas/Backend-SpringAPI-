@@ -1,0 +1,7 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+MicroserviceApplication,com.app.dto,ContactRequest,20,24,0,0,7,9,4,5,4,5
+MicroserviceApplication,com.app.dto,ContactResponse,18,3,0,0,7,1,5,1,5,1
+MicroserviceApplication,com.app.dto.controller,ContactController,33,3,0,0,8,1,4,1,4,1
+MicroserviceApplication,com.app.service,ContactService,40,30,2,0,9,8,3,3,2,3
+MicroserviceApplication,com.app,MainApp,8,3,0,0,3,1,1,1,1,1
+MicroserviceApplication,com.app.model,Contact,11,47,0,0,2,18,2,9,2,9

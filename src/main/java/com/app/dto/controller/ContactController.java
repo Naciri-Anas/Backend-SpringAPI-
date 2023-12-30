@@ -22,7 +22,7 @@ public class ContactController {
     ContactService contactService;
 
 	@PostMapping("/add")
-    public ResponseEntity<Contact> addCustomer(@RequestBody ContactRequest contactRequestDTO) {
+    public ResponseEntity<Contact> addContact(@RequestBody ContactRequest contactRequestDTO) {
         Contact contact = contactService.addContact(contactRequestDTO);
         return ResponseEntity.status(HttpStatus.CREATED).body(contact);
     }
@@ -41,10 +41,10 @@ public class ContactController {
         Contact contact = contactService.updateContact(contactId, contactRequestDTO);
         return ResponseEntity.ok(contact);
     }
-    
-    @GetMapping
-    public ResponseEntity<List<Contact>> getAllContact() {
-        List<Contact> customers = contactService.getAllContact();
-        return ResponseEntity.ok(customers);
+
+    @GetMapping("/getAll")
+    public ResponseEntity<List<Contact>> getAllContacts() {
+        List<Contact> contacts = contactService.getAllContact();
+        return ResponseEntity.ok(contacts);
     }
 }

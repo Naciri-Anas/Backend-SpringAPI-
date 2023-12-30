@@ -22,13 +22,12 @@ private Long mobile;
 // Constructor
 public Contact() {
 	super();
-	this.id = id;
-	this.name = name;
-	this.address = address;
-	this.mobile = mobile;
+
 }
 
-// getters and setters
+
+
+	// getters and setters
 public Long getId() {
 	return id;
 }
@@ -63,9 +62,11 @@ public String toString() {
 	return "Contact [id=" + id + ", name=" + name + ", address=" + address + ", mobile=" + mobile + "]";
 }
 
-public void setMobileNumber(Long mobileNumber) {
-}
 
+	public void setMobileNumber(Long mobileNumber) {
+	//this is a set method so it can be used in the contact service
+
+	}
 }
 
 // It is used to represent a customer entity.
